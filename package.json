@@ -1,0 +1,21 @@
+{
+  "name": "nov-theme",
+  "displayName": "nov-theme",
+  "description": "Custom Novodo theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Novodo Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Novodo Theme-color-theme.json"
+      }
+    ]
+  }
+}
